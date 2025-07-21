@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "30df",
+      "name": "Tao",
+      "email": "test@gamil.com",
+      "role": "admin"
+    },
+    {
+      "id": "1",
+      "name": "Jack",
+      "email": "jktest@gmail.com",
+      "role": "editor"
+    }
+  ]
+}

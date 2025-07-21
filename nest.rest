@@ -1,1 +1,38 @@
 GET localhost:3000
+Content-Type: application/json
+
+{
+  "message": "Hello, NestJS!"
+}
+
+###
+
+GET localhost:3000/users
+
+###
+GET localhost:3000/users/1
+
+###
+POST localhost:3001/users
+Content-Type: application/json
+
+{
+  "name": "Tao",
+  "email": "test@gamil.com",
+  "role": "admin"
+}
+
+###
+PATCH http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+  "role": "editor"
+}
+
+###
+
+DELETE http://localhost:3000/users/1
+
+###
+GET http://localhost:3000/users?role=ADMIN
